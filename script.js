@@ -24,7 +24,13 @@ function getFourthNum(){
 */
 function smallNums(){
     let smallNums = [];
-    smallNums.push
+    for (let i = 0 ; i < numbers.length; i++){
+      if(numbers[i] < 10){
+        smallNums.push(number[i]);
+      }
+    }
+    return smallNums;
+
     // Your answer here:
 }
 
@@ -33,6 +39,7 @@ function smallNums(){
 */
 function addNums(){
     // Your answer here:
+    
 }
 
 
